@@ -7,14 +7,6 @@
 
 using namespace std;
 
-void themMoi(MatHang *danhSach, int *soLuong);
-void sua(MatHang *danhSach, int soLuong);
-void xoa(MatHang *danhSach, int *soLuong);
-void timKiem(MatHang *danhSach, int soLuong);
-void sapXep(MatHang *danhSach, int soLuong);
-void luuFile(MatHang *danhSach, int soLuong, char *fileName);
-void thongKe(MatHang *danhSach, int soLuong);
-
 struct MatHang {
     string maHang;     // Mã hàng
     string tenHang;    // Tên hàng
